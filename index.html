@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Password Generator</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="crypto-generator">
+            <h2 class="crypto-generator__text">Crypto Password Generator</h2>
+            <div class="crypto-generator__get-password">
+                <input type="text" placeholder="" aria-label="Ваш пароль" data-js-password readonly>
+            </div>
+
+            <div class="crypto-generator__select">
+
+            <div class="crypto-generator__option-length crypto-generator__option-container">
+                <label for="length">Введите длину пароля</label>
+                <input type="number" id="length">
+            </div>
+
+                <div class="crypto-generator__option-chars crypto-generator__option-container">
+                    <input type="checkbox" id="chars" name="chars" value="chars">
+                    <label for="chars">Использовать буквы</label>
+                </div>
+
+                <div class="crypto-generator__option-chars crypto-generator__option-container">
+                <div class="crypto-generator__option-numbers ">
+                    <input type="checkbox" id="numbers" name="numbers" value="numbers">
+                    <label for="numbers">Использовать цифры</label>
+                </div>
+
+                <div class="crypto-generator__option-chars crypto-generator__option-container">
+                <div class="crypto-generator__option-symbols">
+                    <input type="checkbox" id="symbols" name="symbols" value="symbols">
+                    <label for="symbols">Использовать специальные символы</label>
+                </div>
+
+            </div>
+
+            
+            <button type="button" class="crypto-generator__button" data-js-generate-password>Сгенерировать пароль</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

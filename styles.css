@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient(
+        to right,
+        #16222A,#3A6073
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.crypto-generator {
+    width: 500px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 15px rgba(255, 255, 255, 0.1); 
+    border-radius: 8px;
+}
+
+.crypto-generator__text {
+    color: #fff;
+    margin-top: -90px;
+    padding-bottom: 30px;
+}
+
+.crypto-generator__option-container {
+    gap: 15px;
+}
+
+.crypto-generator__select {
+    padding-bottom: 100px;
+}
+
+.crypto-generator input[type="text"] {
+    width: 400px;
+    height: 50px;
+}
+
+.crypto-generator input[type="number"] {
+    font-size: 15px;
+    width: 50px;
+    height: 30px;
+}
+
+.crypto-generator input[type="text"],
+.crypto-generator input[type="number"] {
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.crypto-generator input[type="text"]:hover,
+.crypto-generator input[type="number"]:hover {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+    transition: all 0.3s ease;
+}
+
+input, label {
+    color: #fff
+}
+
+::placeholder {
+    color: #C0C0C0;
+}
