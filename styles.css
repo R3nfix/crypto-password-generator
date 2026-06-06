@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght,CRSV@100..900,0&display=swap');
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Geologica', sans-serif;
 }
 
 body {
@@ -40,16 +40,7 @@ body {
 
 .crypto-generator__text {
     color: #fff;
-    margin-top: -90px;
-    padding-bottom: 30px;
-}
-
-.crypto-generator__option-container {
-    gap: 15px;
-}
-
-.crypto-generator__select {
-    padding-bottom: 100px;
+    padding-bottom: 15px;
 }
 
 .crypto-generator input[type="text"] {
@@ -58,9 +49,10 @@ body {
 }
 
 .crypto-generator input[type="number"] {
-    font-size: 15px;
-    width: 50px;
+    width: 170px;
     height: 30px;
+    margin-left: 15px;
+    padding-left: 5px;
 }
 
 .crypto-generator input[type="text"],
@@ -83,9 +75,38 @@ body {
 }
 
 input, label {
-    color: #fff
+    color: #fff;
+    font-size: 20px;
+}
+
+input[type="checkbox"] {
+    zoom: 1.5;
 }
 
 ::placeholder {
     color: #C0C0C0;
+}
+
+.crypto-generator__option-length {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.crypto-generator__option-container {
+    margin-bottom: 10px;
+}
+
+.crypto-generator__select {
+    padding-bottom: 50px;
+}
+
+.generate-btn {
+    width: 250px;
+    height: 40px;
+    background: #4a6578;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
 }
