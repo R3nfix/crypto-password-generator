@@ -5,45 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crypto Password Generator</title>
     <link rel="stylesheet" href="./styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <div class="container">
         <div class="crypto-generator">
             <h2 class="crypto-generator__text">Crypto Password Generator</h2>
             <div class="crypto-generator__get-password">
-                <input type="text" placeholder="" aria-label="Ваш пароль" data-js-password readonly>
+                
+                <div class="crypto-generator__copy">
+                    <p class="copy-msg hide">Скопировано!</p>
+                    <input type="text" placeholder="" aria-label="Ваш пароль" data-js-password readonly>
+                    <button class="crypto-generator__copy-btn" type="button" aria-label="Скопировать">
+                        <i class="bx bx-copy" data-js-copy></i>
+                    </button>
+                </div>
 
                 <div class="crypto-generator__option-length">
                         <label for="length">Введите длину пароля</label>
-                        <input type="number" id="length">
+                        <input type="number" id="length" placeholder="от 4 до 128" data-js-length>
+                        <p class="error-length hide">Длина пароля должна быть от 4 до 128 символов</p>
                 </div>
             </div>
 
             <div class="crypto-generator__select">
 
                 <div class="crypto-generator__option-chars crypto-generator__option-container">
-                    <input type="checkbox" id="chars" name="chars" value="chars">
+                    <input type="checkbox" id="chars" name="chars" value="chars" data-js-letters>
                     <label for="chars">Использовать буквы</label>
                 </div>
 
                 <div class="crypto-generator__option-chars crypto-generator__option-container">
                     <div class="crypto-generator__option-numbers ">
-                        <input type="checkbox" id="numbers" name="numbers" value="numbers">
+                        <input type="checkbox" id="numbers" name="numbers" value="numbers" data-js-digits>
                         <label for="numbers">Использовать цифры</label>
                     </div>
                 </div>
 
                 <div class="crypto-generator__option-chars crypto-generator__option-container">
                     <div class="crypto-generator__option-symbols">
-                        <input type="checkbox" id="symbols" name="symbols" value="symbols">
+                        <input type="checkbox" id="symbols" name="symbols" value="symbols" data-js-symbols>
                         <label for="symbols">Использовать специальные символы</label>
+                        <p class="error-checkbox hide">Выберите хотя бы 1 чекбокс</p>
                     </div>
                 </div>
 
             </div>
 
             <div class="generate-btn">
-                <button type="button" class="generate-btn" data-js-generate-password>Сгенерировать пароль</button>
+                <button type="button" class="generate-btn" data-js-generate>Сгенерировать пароль</button>
             </div>
         </div>
     </div>
