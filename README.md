@@ -44,8 +44,8 @@ Then run index.html directly from the project folder. The project is running and
 ### Usage
 
 1. Run the project locally or using one of the links below.
-2. Specify the desired password length (4 to 128 characters)
-3. Select the character sets you want to see in your password (letters, numbers, special characters)
+2. Specify the desired password length (4 to 128 characters).
+3. Select the character sets you want to see in your password (letters, numbers, special characters).
 4. Click the password generation button - the password will be generated and will appear in the first field.
 5. If necessary, copy your password by clicking the "Copy" button in the first field.
 
@@ -93,8 +93,8 @@ cd crypto-password-generator
 ### Использование
 
 1. Запустите проект локально или по одной из ссылок ниже.
-2. Укажите желаемую длину пароля (от 4 до 128 символов)
-3. Выберите наборы символов, которые вы хотите видеть в своем пароле (использование букв, использование цифр, использование специальных символов)
+2. Укажите желаемую длину пароля (от 4 до 128 символов).
+3. Выберите наборы символов, которые вы хотите видеть в своем пароле (использование букв, использование цифр, использование специальных символов).
 4. Нажмите кнопку генерации пароля - пароль будет сгенерирован и появится в первом поле.
 5. При необходимости скопируйте ваш пароль, нажав на кнопку "Скопировать" в первом поле.
 
