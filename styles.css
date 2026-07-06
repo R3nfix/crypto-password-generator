@@ -183,3 +183,48 @@ input[type="checkbox"] {
 .generate-btn:active {
     transform: scale(0.95);
 }
+
+@media (max-width: 500px) {
+    .crypto-generator {
+        width: 430px;
+        height: 550px;
+    }
+
+    .crypto-generator input[type="number"] {
+        width: 140px;
+        height: 30px;
+        margin-left: 10px;
+        padding-left: 5px;
+    }
+}
+
+@media (max-width: 450px) {
+    .crypto-generator__text {
+        font-size: 23px;
+    }
+
+    .crypto-generator {
+        width: 350px;
+        height: 550px;
+    }
+
+    .crypto-generator input[type="number"] {
+        width: 120px;
+        height: 30px;
+        margin-left: 10px;
+        padding-left: 5px;
+    }
+
+    .crypto-generator input[type="text"] {
+        width: 300px;
+        height: 50px;
+    }
+
+    label {
+        font-size: 17px;
+    }
+
+    input[type="checkbox"] {
+        zoom: 1;
+    }
+}
