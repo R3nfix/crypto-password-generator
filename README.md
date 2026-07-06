@@ -1,4 +1,4 @@
-# 🔒 Crypto Generator Password
+# 🔒 Crypto Password Generator
 
 <div align="center">
   <img src="./img/crypto-generator-password.png" width="450" height="auto">
@@ -20,6 +20,7 @@ The algorithm in such projects is predictable, making these passwords unsafe to 
 * Choice of different character sets: letters, numbers, and special characters
 * Guaranteed inclusion of at least one character from each selected set
 * Shuffling of the resulting password using the Fisher-Yates algorithm to ensure guaranteed characters do not end up in predictable positions.
+* Discarding excess random values ​​during generation - each character has an equal chance of being included in the password
 * Validation of all fields
 
 ### Technology Stack
@@ -57,7 +58,7 @@ Then run index.html directly from the project folder. The project is running and
 
 ### О проекте
 
-**Crypto Generator Password** - это генератор надёжных паролей. В проекте используется встроенный в JavaScript метод **crypto.getRandomValues() от Web Crypto API**, вместо стандартного метода Math.random().
+**Crypto Password Generator** - это генератор надёжных паролей. В проекте используется встроенный в JavaScript метод **crypto.getRandomValues() от Web Crypto API**, вместо стандартного метода Math.random().
 Поскольку большинство проектов в интернете используют Math.random() - такие генераторы нельзя назвать полностью безопасными, поскольку как минимум они ненадежны криптографически.  
 Алгоритм в таких проектах предсказуем, что делает эти пароли небезопасными для использования.
 
@@ -68,6 +69,7 @@ Then run index.html directly from the project folder. The project is running and
 * Выбор различных наборов символов: использование букв, использование цифр, использование специальных символов
 * Гарантированное включение хотя бы одного символа из каждого выбранного набора
 * Перемешивание итогового пароля по алгоритму Фишера-Йетса, чтобы гарантированные символы не оказывались на предсказуемых местах.
+* Отбрасывание избыточных случайных значений при генерации — каждый символ имеет равные шансы попасть в пароль
 * Валидация всех заполняемых полей
 
 ### Стек технологий
