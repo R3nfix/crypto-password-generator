@@ -35,7 +35,7 @@ The algorithm in such projects is predictable, making these passwords unsafe to 
 The project can be run locally and without build tools.
 
 ```
-git clone https://github.com/R3nfix/crypto-password-generator.git
+git clone https://github.com/antlevchenko/crypto-password-generator.git
 cd crypto-password-generator
 ```
 
@@ -51,7 +51,7 @@ Then run index.html directly from the project folder. The project is running and
 
 ### Project Links
 
-[GitHub Pages](https://r3nfix.github.io/crypto-password-generator/)  
+[GitHub Pages](https://antlevchenko.github.io/crypto-password-generator/)  
 [Netlify](https://crypto-pass-generator.netlify.app/) (may not work in Russia without a VPN)
 
 ### [RU]
@@ -84,7 +84,7 @@ Then run index.html directly from the project folder. The project is running and
 Проект можно запускать локально и без сборщиков
 
 ```
-git clone https://github.com/R3nfix/crypto-password-generator.git
+git clone https://github.com/antlevchenko/crypto-password-generator.git
 cd crypto-password-generator
 ```
 
@@ -100,5 +100,5 @@ cd crypto-password-generator
 
 ### Ссылки на проект
 
-[GitHub Pages](https://r3nfix.github.io/crypto-password-generator/)  
+[GitHub Pages](https://antlevchenko.github.io/crypto-password-generator/)  
 [Netlify](https://crypto-pass-generator.netlify.app/) (может не работать в РФ без VPN)
